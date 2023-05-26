@@ -9,7 +9,12 @@ def main():
 
     st.write(boton)
 
-    st.balloons()
+    df = load_data()
+    st.write(df)
+
+    st.markdown('---')
+    st.table(df)
+
 
 
 
